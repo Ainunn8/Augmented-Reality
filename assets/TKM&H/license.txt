@@ -1,0 +1,11 @@
+Model Information:
+* title:	Toys Kuromi, Melody and Hello Kitty
+* source:	https://sketchfab.com/3d-models/toys-kuromi-melody-and-hello-kitty-d7e22ef4ac674b24967c4aa75a37a327
+* author:	gkari (https://sketchfab.com/gkari)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Toys Kuromi, Melody and Hello Kitty" (https://sketchfab.com/3d-models/toys-kuromi-melody-and-hello-kitty-d7e22ef4ac674b24967c4aa75a37a327) by gkari (https://sketchfab.com/gkari) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

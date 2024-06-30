@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v7.0.0/dist/aframe-extras.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+    </head>
+    <body>
+        <a-scene mindar-image="imageTargetSrc: ./targets/new.mind; maxTrack: 15" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+        <a-assets>
+            
+            <a-asset-item id="hello_kitty" src="./assets/hello_kitty/scene.gltf"></a-asset-item>
+            <a-asset-item id="sanrio" src="./assets/sanrio/scene.gltf"></a-asset-item>
+            <a-asset-item id="kurom_sanrio" src="./assets/kurom_sanrio/scene.gltf"></a-asset-item>
+            <a-asset-item id="kuromi1" src="./assets/kuromi (1)/scene.gltf"></a-asset-item>
+            <a-asset-item id="kuromi" src="./assets/kuromi/scene.gltf"></a-asset-item>
+            <a-asset-item id="pom_6" src="./assets/pom_6/scene.gltf"></a-asset-item>
+            <a-asset-item id="pucca" src="./assets/pucca/scene.gltf"></a-asset-item>
+            <a-asset-item id="purin_3" src="./assets/purin_3/scene.gltf"></a-asset-item>
+            <a-asset-item id="TKMH" src="./assets/TKM&H/scene.gltf"></a-asset-item>
+            <a-asset-item id="cinnamoroll" src="./assets/cinnamoroll/scene.gltf"></a-asset-item>
+
+            <a-image id="hello_kitty1" src="./card/hello_kitty.png"></a-image>
+            <a-image id="sanrio1" src="./card/sanrio.png"></a-image>
+            <a-image id="kurom_sanrio1" src="./card/kurom_sanrio.png"></a-image>
+            <a-image id="kuromi11" src="./card/kuromi1.png"></a-image>
+            <a-image id="kuromi1" src="./card/kuromi.png"></a-image>
+            <a-image id="pom_61" src="./card/pom_6.png"></a-image>
+            <a-image id="pucca1" src="./card/pucca.png"></a-image>
+            <a-image id="purin_31" src="./card/purin_3.png"></a-image>
+            <a-image id="TKMH1" src="./card/TKMH.png"></a-image>
+            <a-image id="cinnamoroll1" src="./card/cinnamoroll.png"></a-image>
+
+        </a-assets>
+        <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+            <a-entity mindar-image-target="targetIndex: 0">
+                <a-image scale="2 1.25" src="#cinnamoroll1"></a-image> 
+                <a-gltf-model rotation="-0.1 -0 0" position="0.15 -0.35 0.3" scale="0.1 0.1 0.1" src="#cinnamoroll" animation-mixer>
+            </a-entity>
+            <a-entity mindar-image-target="targetIndex: 1">
+                <a-image scale="2 1.25" src="#hello_kitty1"></a-image>
+                <a-gltf-model rotation="0 0 0" position="0 -0.25 0.3" scale="0.5 0.5 0.5" src="#hello_kitty" animation-mixer>
+            </a-entity>
+            <a-entity mindar-image-target="targetIndex: 2">
+                <a-image scale="2 1.25" src="#kurom_sanrio1"></a-image>
+                <a-gltf-model rotation="0 0 0 " position="0 -0.25 0.3" scale="0.3 0.3 0.3" src="#kurom_sanrio" animation-mixer>
+            </a-entity> 
+            <a-entity mindar-image-target="targetIndex: 3">
+                <a-image scale="2 1.25" src="#kuromi11"></a-image>
+                <a-gltf-model rotation="-0.1 -0 0" position="0 -0.25 0.3" scale="0.3 0.3 0.3" src="#kuromi1" animation-mixer>
+            </a-entity>
+            <a-entity mindar-image-target="targetIndex: 4">
+                <a-image scale="2 1.25" src="#kuromi1"></a-image>
+                <a-gltf-model rotation="0 0 0" position="0 -0.25 0.3" scale="0.3 0.3 0.3" src="#kuromi" animation-mixer>
+            </a-entity>
+            <a-entity mindar-image-target="targetIndex: 5">
+                <a-image scale="2 1.25" src="#pom_61"></a-image>
+                <a-gltf-model rotation="-90 55 0 " position="0 0 0.3" scale="0.1 0.1 0.1" src="#pom_6" animation-mixer>
+            </a-entity> 
+            <a-entity mindar-image-target="targetIndex: 6">
+                <a-image scale="2 1.25" src="#pucca1"></a-image>
+                <a-gltf-model rotation="0 0 0" position="0 -0.25 0.3" scale="0.2 0.2 0.2" src="#pucca" animation-mixer>
+            </a-entity> 
+            <a-entity mindar-image-target="targetIndex: 7">
+                <a-image scale="2 1.25" src="#purin_31"></a-image>
+                <a-gltf-model rotation="0 0 0" position="0.15 -0.35 0.3" scale="0.1 0.1 0.1" src="#purin_3" animation-mixer>
+            </a-entity>
+            <a-entity mindar-image-target="targetIndex: 8">
+                <a-image scale="2 1.25" src="#sanrio1"></a-image>
+                <a-gltf-model rotation="0 0 0" position="0.15 -0.25 0.3" scale="0.3 0.3 0.3" src="#sanrio" animation-mixer>
+            </a-entity>
+            <a-entity mindar-image-target="targetIndex: 9">
+                <a-image scale="2 1.25" src="#TKMH1"></a-image>
+                <a-gltf-model rotation="-0.1 -0 0" position="0 0 0.3" scale="0.1 0.1 0.1" src="#TKMH" animation-mixer>
+            </a-entity>
+
+        </a-scene>
+    </body>
+</html>
